@@ -1,0 +1,100 @@
+/* RESET */
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: arial,tahoma,verdana;
+}
+
+html,body,#main{
+  width: 500px;
+  height: 600px;
+  overflow: hidden;
+}
+
+body{
+  font-size: 12px;
+  color: #444;
+}
+
+h1{
+  font-size:16px;
+}
+
+h2{
+  font-size:14px;
+  padding:0 0 5px 0;
+}
+
+h3{
+  font-size:12px;
+  padding:0 0 5px 0;
+}
+
+a{
+  text-decoration: none;
+  color:#000;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+img{
+  max-width:672px;
+}
+
+.clear{
+  display: block;
+  clear: both;
+  height:0;
+  line-height:0;
+  font-size: 0;
+  overflow: hidden;
+}
+
+/* BASE */
+
+#main{
+  background:#FEFFEF url('../img/loader.gif') no-repeat center center;;
+}
+
+#name{
+  height:30px;
+  line-height:30px;
+  padding:6px 10px 5px 10px;
+  font-size:20px;
+  color:#fff;
+  text-align: center;
+  background-color:rgb(195, 0, 255);
+}
+
+/* SHARE */
+
+#share{
+  position: absolute;
+  right:0;
+  top:42px;
+  padding:9px 0px 0 0;
+  text-align: center;
+  z-index:100;
+}
+
+#share .item{
+  display:inline-block;
+  width:75px;
+  overflow: hidden;
+  text-align: left;
+}
+
+#share .item.fb_share{
+  width:68px;
+}
+
+/* FEED */
+
+#fb_frame{
+  height:559px;
+  padding:0px;
+  overflow: hidden;
+}
